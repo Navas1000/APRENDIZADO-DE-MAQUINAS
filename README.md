@@ -1,81 +1,57 @@
-# Relatório Final: Curricularização da Extensão
+# Como os Algoritmos Resolvem Problemas que Humanos Acham Difíceis?
 
-## Pontifícia Universidade Católica de Campinas
+## Introdução
 
-### Curso: Engenharia de Computação
+Você sabia que computadores podem resolver quebra-cabeças e encontrar rotas eficientes de maneira mais rápida e precisa do que humanos? Isso é possível graças a algoritmos de busca e técnicas de aprendizado de máquina. Hoje, vamos explorar como essas tecnologias funcionam, usando exemplos como o jogo 8-puzzle e o problema do caixeiro viajante.
 
-**Componente Curricular:** PI: Sistemas Inteligentes e Aprendizado de Máquina  
-**Código:** 13134  
+## O Que é o 8-puzzle?
 
-**Docente:** Fernando Soares de Aguiar Neto  
+O **8-puzzle** é um jogo onde você organiza números de 1 a 8 em um tabuleiro 3x3, deslizando peças para alcançar uma configuração final. Parece simples, certo? Mas encontrar o menor número de movimentos para resolver o jogo pode ser extremamente complicado! 
 
----
+Os computadores usam **algoritmos de busca** para analisar milhões de possibilidades e encontrar o caminho ideal. Três tipos de algoritmos muito utilizados são:
 
-## Identificação
+1. **Busca em Largura (BFS):** Explora todas as opções possíveis de maneira organizada, mas pode ser lento.
+2. **Busca em Profundidade (DFS):** Vai fundo em uma possibilidade antes de tentar outras, mas corre o risco de se perder em caminhos sem solução.
+3. **Busca A*** (*A Estrela*): Usa "dicas" chamadas heurísticas para decidir quais caminhos têm maior chance de sucesso.
 
-**Nome do Aluno:** Mateus Navarro Bella Cruz  
+### Como Funciona na Prática?
 
-**Comunidade Externa, Parceiro ou Cliente:**  
-População em Geral (Departamento de Comunicação PUC-Campinas)  
+Imagine que você está perdido em um labirinto. O BFS seria como explorar cada corredor em ordem, enquanto o DFS seria como ir o mais longe possível em um corredor antes de voltar. Já o A* seria como ter um mapa que mostra onde está a saída e guia você de forma mais inteligente.
 
-**Objetivos Específicos:**  
-- Implementar soluções práticas que explorem algoritmos de busca e aprendizado de máquina aplicados a problemas clássicos.  
-- Divulgar conceitos de Inteligência Artificial e Aprendizado de Máquina de forma acessível e prática, conectando as inovações ao público em geral.  
+## Algoritmos Genéticos e o Problema do Caixeiro Viajante
 
----
+Outro desafio fascinante é o **problema do caixeiro viajante (TSP)**. Aqui, o objetivo é encontrar a rota mais curta para visitar várias cidades e retornar ao ponto de partida. É um problema tão complexo que até mesmo supercomputadores têm dificuldade em resolvê-lo para muitas cidades!
 
-## Descrição e Análise das Atividades
+Uma solução inovadora é usar **algoritmos genéticos**, inspirados na evolução biológica. Eles funcionam assim:
 
-### Registro de Datas e Quantidade de Horas
+1. **População Inicial:** Começamos com várias rotas possíveis.
+2. **Seleção:** As rotas mais curtas têm maior chance de "reproduzir".
+3. **Cruzamento:** As melhores rotas "combinam" para criar novas rotas.
+4. **Mutação:** Pequenas alterações aleatórias são feitas para explorar novas possibilidades.
+5. **Iteração:** O processo se repete até encontrar a melhor solução.
 
-| **Atividade**                       | **Datas**               | **Horas** |
-|-------------------------------------|-------------------------|-----------|
-| Estudo inicial do 8-puzzle          | 15/08/2024 a 22/08/2024 | 10h       |
-| Desenvolvimento do 8-puzzle         | 23/08/2024 a 28/08/2024 | 15h       |
-| Adição de IA ao simulador           | 18/09/2024 a 25/09/2024 | 10h       |
-| Implementação do algoritmo genético | 31/10/2024 a 13/11/2024 | 10h       |
-| Desenvolvimento do relatório         | 21/11/2024 a 05/12/2024 | 5h        |
+### Por Que Funciona?
 
----
+Assim como a seleção natural melhora as espécies ao longo do tempo, os algoritmos genéticos "evoluem" soluções cada vez melhores para problemas como o TSP.
 
-### Recursos e Estratégias Utilizadas
+## Conclusão
 
-- **Recursos Computacionais:** Python, bibliotecas NumPy e Matplotlib para o desenvolvimento de algoritmos e simulações gráficas.  
-- **Estratégias Pedagógicas:** Estudo de casos práticos e desenvolvimento iterativo com revisão em grupo.  
-- **Softwares e Ferramentas:** VSCode para desenvolvimento de código, Google e YouTube para pesquisa, OnlineGDB para salvar os códigos online.  
+Algoritmos de busca e genéticos são ferramentas poderosas que ajudam computadores a resolver problemas complexos. Eles não apenas superam as limitações humanas, mas também oferecem soluções para desafios em áreas como logística, robótica e até medicina.
 
----
+### Curiosidade
 
-### Relato Descritivo
+Sabia que os mesmos algoritmos usados no 8-puzzle podem ser aplicados para planejar o trajeto de um robô aspirador? Da próxima vez que você vir um robô funcionando, lembre-se de que a inteligência artificial está "pensando" para fazer o trabalho.
 
-Três projetos foram desenvolvidos como parte do componente curricular:  
+## Fontes
 
-1. **Simulador 8-puzzle:** Implementado com interface interativa, permitindo que o usuário jogue e visualize os estados sucessores. Este projeto introduziu conceitos de algoritmos de busca.  
-
-2. **IA no 8-puzzle:** Três estratégias foram implementadas para resolução automática: busca em largura, profundidade e A*. A experiência mostrou diferenças práticas entre heurísticas e eficiência computacional.  
-
-3. **Algoritmo Genético para o TSP:** Apresentou um problema clássico com critérios flexíveis de otimização e ciclos iterativos, permitindo explorar as limitações dos métodos evolutivos.  
+- [Micromouse: competições de labirintos](https://en.wikipedia.org/wiki/Micromouse)
+- [Busca A* explicada](https://en.wikipedia.org/wiki/A*_search_algorithm)
+- [Introdução a algoritmos genéticos](https://en.wikipedia.org/wiki/Genetic_algorithm)
 
 ---
 
-## Avaliação das Atividades
-
-**Apreciação Geral:**  
-A experiência foi enriquecedora, conectando teoria e prática. O principal desafio foi ajustar a complexidade das soluções aos prazos estipulados. Potencialidades incluem o aprendizado colaborativo e o desenvolvimento de soluções aplicáveis. Como fragilidade, destacou-se a necessidade de maior detalhamento nas interfaces com o usuário.  
-
----
-
-## Produto Final
-
-### Resumo
-
-Três projetos foram desenvolvidos no âmbito da curricularização da extensão:  
-1. Um simulador interativo do jogo 8-puzzle.  
-2. Um aprimoramento do simulador com algoritmos de busca automáticos.  
-3. Um algoritmo genético aplicado ao problema do caixeiro viajante.  
-
-Esses projetos exploraram conceitos fundamentais de Inteligência Artificial, com uma abordagem prática e interativa para aprendizagem e divulgação científica.  
+Este texto é voltado para o público leigo e foi inspirado em projetos acadêmicos desenvolvidos no curso de Engenharia de Computação da PUC-Campinas.
 
 ### Evidências
 
-[Evidências no GitHub](https://github.com/Navas1000/APRENDIZADO-DE-MAQUINAS/tree/main)
+[Repositório GitHub com o código dos projetos](https://github.com/Navas1000/APRENDIZADO-DE-MAQUINAS/tree/main)
