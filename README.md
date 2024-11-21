@@ -1,57 +1,76 @@
-# Como os Algoritmos Resolvem Problemas que Humanos Acham Difíceis?
+# Relatório de Curricularização de Extensão: Aprendizado de Máquina
 
-## Introdução
+## ESCOLA POLITÉCNICA
 
-Você sabia que computadores podem resolver quebra-cabeças e encontrar rotas eficientes de maneira mais rápida e precisa do que humanos? Isso é possível graças a algoritmos de busca e técnicas de aprendizado de máquina. Hoje, vamos explorar como essas tecnologias funcionam, usando exemplos como o jogo 8-puzzle e o problema do caixeiro viajante.
+**Curso:** Engenharia de Computação  
+**Componente Curricular:** PI: Sistemas Inteligentes e Aprendizado de Máquina  
+**Código:** 13134  
 
-## O Que é o 8-puzzle?
+### Carga Horária Total do Componente Curricular:
+- **CH Teórica:** 38  
+- **CH Prática:** 38  
+- **CH Autônoma:** 20  
+- **CH Extensão:** 45  
 
-O **8-puzzle** é um jogo onde você organiza números de 1 a 8 em um tabuleiro 3x3, deslizando peças para alcançar uma configuração final. Parece simples, certo? Mas encontrar o menor número de movimentos para resolver o jogo pode ser extremamente complicado! 
-
-Os computadores usam **algoritmos de busca** para analisar milhões de possibilidades e encontrar o caminho ideal. Três tipos de algoritmos muito utilizados são:
-
-1. **Busca em Largura (BFS):** Explora todas as opções possíveis de maneira organizada, mas pode ser lento.
-2. **Busca em Profundidade (DFS):** Vai fundo em uma possibilidade antes de tentar outras, mas corre o risco de se perder em caminhos sem solução.
-3. **Busca A*** (*A Estrela*): Usa "dicas" chamadas heurísticas para decidir quais caminhos têm maior chance de sucesso.
-
-### Como Funciona na Prática?
-
-Imagine que você está perdido em um labirinto. O BFS seria como explorar cada corredor em ordem, enquanto o DFS seria como ir o mais longe possível em um corredor antes de voltar. Já o A* seria como ter um mapa que mostra onde está a saída e guia você de forma mais inteligente.
-
-## Algoritmos Genéticos e o Problema do Caixeiro Viajante
-
-Outro desafio fascinante é o **problema do caixeiro viajante (TSP)**. Aqui, o objetivo é encontrar a rota mais curta para visitar várias cidades e retornar ao ponto de partida. É um problema tão complexo que até mesmo supercomputadores têm dificuldade em resolvê-lo para muitas cidades!
-
-Uma solução inovadora é usar **algoritmos genéticos**, inspirados na evolução biológica. Eles funcionam assim:
-
-1. **População Inicial:** Começamos com várias rotas possíveis.
-2. **Seleção:** As rotas mais curtas têm maior chance de "reproduzir".
-3. **Cruzamento:** As melhores rotas "combinam" para criar novas rotas.
-4. **Mutação:** Pequenas alterações aleatórias são feitas para explorar novas possibilidades.
-5. **Iteração:** O processo se repete até encontrar a melhor solução.
-
-### Por Que Funciona?
-
-Assim como a seleção natural melhora as espécies ao longo do tempo, os algoritmos genéticos "evoluem" soluções cada vez melhores para problemas como o TSP.
-
-## Conclusão
-
-Algoritmos de busca e genéticos são ferramentas poderosas que ajudam computadores a resolver problemas complexos. Eles não apenas superam as limitações humanas, mas também oferecem soluções para desafios em áreas como logística, robótica e até medicina.
-
-### Curiosidade
-
-Sabia que os mesmos algoritmos usados no 8-puzzle podem ser aplicados para planejar o trajeto de um robô aspirador? Da próxima vez que você vir um robô funcionando, lembre-se de que a inteligência artificial está "pensando" para fazer o trabalho.
-
-## Fontes
-
-- [Micromouse: competições de labirintos](https://en.wikipedia.org/wiki/Micromouse)
-- [Busca A* explicada](https://en.wikipedia.org/wiki/A*_search_algorithm)
-- [Introdução a algoritmos genéticos](https://en.wikipedia.org/wiki/Genetic_algorithm)
+**Docente(s):** Fernando Soares de Aguiar Neto  
+**Nome do(a) Aluno(a):** Mateus Navarro Bella Cruz  
 
 ---
 
-Este texto é voltado para o público leigo e foi inspirado em projetos acadêmicos desenvolvidos no curso de Engenharia de Computação da PUC-Campinas.
+## Identificação
 
-### Evidências
+### 1.1 Nome (Comunidade Externa, Parceiro ou Cliente):  
+População em Geral (Dpto Comunicação PUC-Campinas)  
 
-[Repositório GitHub com o código dos projetos](https://github.com/Navas1000/APRENDIZADO-DE-MAQUINAS/tree/main)
+### Número de Pessoas Envolvidas:  
+- **Total:** n/a  
+- **Específica:** n/a  
+
+### Objetivos Específicos:
+1. Difundir os conceitos de inteligência artificial utilizados em jogos como o xadrez.  
+2. Comparar as capacidades de pesquisa computacional com as capacidades humanas.  
+3. Explicar as vantagens e limitações dos algoritmos de pesquisa no contexto dos jogos.  
+
+---
+
+## Descrição e Análise das Atividades
+
+### 2.1 Registro de Datas e Quantidade de Horas das Atividades:
+- **Pesquisa de Algoritmo de Xadrez:**  
+  14/11/2024 a 20/11/2024 — **10h**  
+- **Desenvolver Texto Promocional:**  
+  21/11/2024 a 27/11/2024 — **10h**  
+- **Revisão de Texto e Simplificação do Conteúdo:**  
+  28/11/2024 a 04/12/2024 — **10h**  
+- **Revisão do Conteúdo e Verificação Técnica:**  
+  05/12/2024 a 11/12/2024 — **10h**  
+
+### 2.2 Recursos e Estratégias Utilizadas:
+- **Recursos Computacionais:**  
+  Artigos científicos, vídeos explicativos sobre Minimax e poda alfa-beta, e material de leitura de sites como Chess.com.  
+- **Estratégias de Ensino:**  
+  Simplificação de conceitos técnicos para facilitar a compreensão de um público leigo, utilizando exemplos e analogias textuais.  
+- **Ferramentas:**  
+  Google Docs para redação e pesquisa online de fontes confiáveis.  
+
+### 2.3 Relato Descritivo e Analítico:
+O texto de divulgação científica, intitulado **"Por que o computador sempre vence no xadrez?"**, buscou explicar como algoritmos permitem que máquinas analisem bilhões de possibilidades em segundos, superando os limites humanos. Foram estudados conceitos de algoritmos de busca (como Minimax e poda alfa-beta) e comparações entre o desempenho humano e computacional.
+
+O maior desafio foi tornar o conteúdo acessível, reduzindo jargões técnicos e priorizando exemplos práticos. A experiência ajudou no desenvolvimento de habilidades de comunicação com públicos não especializados.  
+
+---
+
+## Avaliação das Atividades Desenvolvidas
+
+### 3.1 Apreciação Geral do Discente:
+O desenvolvimento do texto foi uma oportunidade única para apresentar o conceito de IA em linguagem acessível. A principal dificuldade foi simplificar os algoritmos como Minimax sem perder a precisão técnica. Apesar disso, o resultado final conseguiu atender ao objetivo de instruir um público não técnico.  
+
+---
+
+## Produto Final
+
+### 4.1 Resumo:
+O texto **"Por que o computador sempre vence no xadrez?"** mostra de forma simplificada como os algoritmos de busca, como Minimax e poda alfa-beta, funcionam para analisar movimentos e prever resultados no xadrez. O conteúdo apresenta as vantagens computacionais, enquanto explora as diferenças com a tomada de decisão humana.  
+
+**Evidências:**  
+[GitHub - Aprendizado de Máquinas](https://github.com/Navas1000/APRENDIZADO-DE-MAQUINAS/tree/main)
